@@ -2,5 +2,6 @@
     "verification" : {
         "testNamePatterns" : [ ".*Verification.*" ],
         "pathPatterns" : [ "**test/verify_**.bats" ]
-    }
+    },
+    "readOnlyFiles" : [ "**test/**", "Makefile" ]
 }
